@@ -17,7 +17,7 @@ export const NotWorkingLint = styled(({prop}:{prop?: string}) => {
   }
   const [] = useState(false);
   return (
-    <div> Lint on hook is working </div>
+    <div> Lint on hook is not working </div>
   );
 })``;
 
